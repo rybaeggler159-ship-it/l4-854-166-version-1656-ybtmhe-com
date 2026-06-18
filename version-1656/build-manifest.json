@@ -1,0 +1,10 @@
+{
+  "site_name": "日韩热映榜",
+  "source_records_parsed": 2000,
+  "detail_pages": 2000,
+  "category_pages": 8,
+  "html_pages_total": 2013,
+  "hls_urls_found_in_uploaded_js": 20,
+  "image_references": "top-level 1.jpg through 150.jpg are referenced by generated pages",
+  "generated_at": "2026-05-27"
+}

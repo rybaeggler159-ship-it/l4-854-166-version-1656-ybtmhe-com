@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-亚洲高清片库</title>
+  <meta name="description" content="搜索亚洲高清电影片库内容，支持按片名、地区、年份、类型和标签查找。">
+  <meta name="keywords" content="影片搜索,亚洲高清电影,亚洲电影,电影片库,精选内容,内容更新,亚洲影片,高清电影">
+  <link rel="stylesheet" href="./assets/site.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="./index.html" aria-label="亚洲高清片库">
+      <span class="brand-mark">亚</span>
+      <span class="brand-copy"><strong>亚洲高清片库</strong><em>精选内容持续更新</em></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="菜单" data-nav-toggle>☰</button>
+    <nav class="main-nav" data-main-nav>
+      <a class="" href="./index.html">首页</a>
+      <a class="" href="./categories.html">分类</a>
+      <a class="" href="./ranking.html">排行</a>
+      <a class="active" href="./search.html">搜索</a>
+    </nav>
+    <form class="top-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main data-search-page>
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-kicker">Search</p>
+      <h1>影片搜索</h1>
+      <p>输入片名、地区、类型、年份或标签，快速查找片库内容。</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <form class="search-box">
+        <input type="search" name="q" placeholder="搜索影片、地区、年份、标签" aria-label="搜索影片">
+        <button class="btn primary" type="submit">搜索</button>
+      </form>
+      <div class="search-results" data-search-results></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>亚洲高清片库</h2>
+      <p>围绕亚洲高清电影整理片库内容，涵盖多地区影片和热门片单，方便按分类浏览。</p>
+    </div>
+    <div>
+      <h3>分类浏览</h3>
+      <div class="footer-links"><a href="./category-asia-hd.html">亚洲精选</a><a href="./category-hot-cinema.html">热映推荐</a><a href="./category-fresh-updates.html">精选更新</a><a href="./category-story-drama.html">剧情片单</a><a href="./category-suspense-action.html">悬疑动作</a><a href="./category-romance-comedy.html">爱情喜剧</a><a href="./category-family-animation.html">家庭动画</a><a href="./category-classic-global.html">环球经典</a></div>
+    </div>
+    <div>
+      <h3>快捷入口</h3>
+      <div class="footer-links">
+        <a href="./ranking.html">热度排行</a>
+        <a href="./search.html">影片搜索</a>
+        <a href="./categories.html">全部分类</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 亚洲高清片库 · 亚洲高清电影片库</div>
+</footer>
+<script src="./assets/main.js"></script>
+<script src="./assets/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
